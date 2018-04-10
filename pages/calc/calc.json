@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/calc/calc",
+    "pages/button/button",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarTitleText": "计算器小程序", 
+    "navigationBarTextStyle": "white"
+  }
+}

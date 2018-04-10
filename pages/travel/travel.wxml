@@ -1,0 +1,26 @@
+<view class="content">
+  <form bindsubmit='formSubmit' bindreset='formReset'>
+    <view class ="section section_gap">
+      <view class = "section_title">性别</view>
+      <radio-group name="sex">
+      <label><radio value ="male" checked/>男</label>
+      <label><radio value="female" style="margin-left:20rpx;"/>女</label>
+      </radio-group>
+    </view>
+
+  
+<view class = "btn-area">
+  <button formType = "submit" type = "primary">提交</button>
+  <button formType = "reset">重置</button>
+</view>
+<view class = "section">
+  <view class = "section_title">想去的国家</view>
+    <checkbox-group name = "region">
+      <label class ="checkbox" wx:for="{{regions}}">
+        <checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+          {{item.value}}
+      </label>
+    </checkbox-group>
+</view>
+</form>
+</view>

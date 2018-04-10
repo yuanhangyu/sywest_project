@@ -1,0 +1,28 @@
+//.content {
+  //margin:40rpx;
+//}
+.section{
+  margin-bottom:80rpx;
+}
+//.section_gap{
+  //padding: 0 30rpx;
+//}
+
+.section_title{
+  margin-bottom:16rpx;
+  padding-left:30rpx;
+  padding-right:30rpx;
+  background-color: equa;
+}
+ //.btn-area{
+  //padding:0 30px;
+ //}
+ //button{
+  //margin:20rpx 0;
+ //}
+
+radio-group{
+  padding:20rpx;
+}
+
+
