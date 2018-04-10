@@ -1,8 +1,8 @@
 {
   "pages":[
-    "pages/picker/picker",
-    "pages/travel/travel",
     "pages/calc/calc",
+    "pages/picker/picker",
+   "pages/travel/travel",
     "pages/history/history",
     "pages/button/button",
     "pages/index/index",
